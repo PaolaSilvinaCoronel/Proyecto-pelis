@@ -1,0 +1,31 @@
+.searchContainer {
+    display: flex;
+    justify-content: center;
+
+}
+.searchBox {
+    position: relative;
+}
+.searchBotton {
+    position: absolute;
+    right: 8px;
+    top: 0;
+    height: 100%;
+   
+
+
+}
+.searchImput {
+    font-size: 1.2rem;
+height: 30px;
+border-radius: 10px;
+padding: 5px 30px 5px 10px;
+border:  1px solid white;
+}
+
+.searchContainer:focus,
+.searchContainer:focus{
+    outline: none;
+    border: 1px solid rgb(164, 224, 22);
+    box-shadow: 0 0 5px rgb(209, 92, 14);
+}
